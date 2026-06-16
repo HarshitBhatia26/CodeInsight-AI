@@ -49,29 +49,6 @@ Why AI Code Reviewer?
 - 🔗 GitHub URL- Repository integration (UI ready)
 
 
-
-
-🏗 Architecture
-
-
-┌─────────────────────────────────────────────────────────────────┐
-│                         FRONTEND                                │
-│                     React + TypeScript                          │
-│  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐             │
-│  │Sidebar  │  │ Editor  │  │ Results │  │ Charts  │             │
-│  └─────────┘  └─────────┘  └─────────┘  └─────────┘             │
-└────────────────────────────┬────────────────────────────────────┘
-                             │ REST API
-                             ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                         BACKEND                                 │
-│                    FastAPI + Python                             │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐              │
-│  │  API Layer  │  │  ML Engine  │  │   Static    │              │
-│  │  (FastAPI)  │  │ (sklearn)   │  │  Analyzer   │              │
-│  └─────────────┘  └─────────────┘  └─────────────┘              │
-└─────────────────────────────────────────────────────────────────┘
-
 ### Three-Tier Architecture
 
 | Layer | Technology | Purpose |
@@ -173,16 +150,26 @@ Backend runs at: `http://localhost:8000`
 Main Dashboard
 1) User interface (Backend offline)
 <img width="1902" height="865" alt="Screenshot 2026-06-12 020755" src="https://github.com/user-attachments/assets/5affaacd-9502-45e6-baef-c2344e8c6b30" />
+
+
 2) User interface (Backend online)
 <img width="1901" height="873" alt="Screenshot 2026-06-12 020604" src="https://github.com/user-attachments/assets/6afad4db-d40c-4b16-b5f3-00194c122fae" />
+
+
 3) Code paste
 <img width="1885" height="865" alt="Screenshot 2026-06-12 020906" src="https://github.com/user-attachments/assets/2c71327b-d02a-4fa6-beaf-dd55cd094415" />
+
+
 4) Review summary
 <img width="1878" height="868" alt="Screenshot 2026-06-12 021001" src="https://github.com/user-attachments/assets/e9e75e5b-baed-4321-8dea-b9a6e9653876" />
 
+
 <img width="1903" height="865" alt="Screenshot 2026-06-12 021034" src="https://github.com/user-attachments/assets/5248cb82-8c0a-4d3f-b439-7fc22179270c" />
 
+
 <img width="1901" height="870" alt="Screenshot 2026-06-12 021054" src="https://github.com/user-attachments/assets/3dc16f35-31a0-47ba-b158-27cf00cffae8" />
+
+
 5) History check
 <img width="1903" height="852" alt="Screenshot 2026-06-12 021113" src="https://github.com/user-attachments/assets/e072fa5b-d478-4108-b4c9-bbeabd4ffead" />
 
