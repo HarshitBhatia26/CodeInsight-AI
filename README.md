@@ -79,7 +79,7 @@ Backend
 | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) | Numerical | 2.3 |
 
 
-###📦 Installation
+### 📦 Installation
 
  Prerequisites
 
@@ -87,13 +87,13 @@ Backend
 - **Python** 3.11+
 - **Git**
 
-Frontend Setup
+### Frontend Setup
 
 bash
-# Install dependencies
+Install dependencies
 npm install
 
-# Start development server
+####Start development server
 npm run dev
 
 
