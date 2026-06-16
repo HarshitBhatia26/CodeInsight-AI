@@ -90,11 +90,11 @@ Backend
 ### Frontend Setup
 
 bash
-Install dependencies
-npm install
+- Install dependencies
+  npm install
 
-Start development server
-npm run dev
+- Start development server
+  npm run dev
 
 
 Frontend runs at: `http://localhost:5173`
@@ -102,34 +102,34 @@ Frontend runs at: `http://localhost:5173`
 ### Backend Setup
 
 bash
-Navigate to backend
-cd backend
+- Navigate to backend
+  cd backend
 
-Create virtual environment
-python -m venv .venv
+- Create virtual environment
+  python -m venv .venv
 
-Activate virtual environment
-On Windows:
-.venv\Scripts\activate
+- Activate virtual environment
+  On Windows:
+  .venv\Scripts\activate
 
-Install dependencies
-pip install -r requirements.txt
+- Install dependencies
+  pip install -r requirements.txt
 
-Start server
-uvicorn main:app --reload --port 8000
+- Start server
+  uvicorn main:app --reload --port 8000
 
 
 ### Installation and API integration 
 
 bash
-Install Groq SDK
-pip install groq
+- Install Groq SDK
+  pip install groq
 
-Install with all dependencies
-pip install groq openai python-dotenv requests
+- Install with all dependencies
+  pip install groq openai python-dotenv requests
 
-Verify installation
-python -c "from groq import Groq; print('Groq installed successfully')"
+- Verify installation
+  python -c "from groq import Groq; print('Groq installed successfully')"
 
 
 Environment Setup
