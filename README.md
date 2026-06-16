@@ -122,7 +122,7 @@ bash
 - Verify installation- python -c "from groq import Groq; print('Groq installed successfully')"
 
 
-###Environment Setup
+### Environment Setup
 
 bash
 - Set API key (Linux/macOS)- export GROQ_API_KEY="gsk_your_key_here"
@@ -134,7 +134,7 @@ bash
 
 Backend runs at: `http://localhost:8000`
 
-##Main Dashboard
+## Main Dashboard
 1) User interface (Backend offline)
 <img width="1902" height="865" alt="Screenshot 2026-06-12 020755" src="https://github.com/user-attachments/assets/5affaacd-9502-45e6-baef-c2344e8c6b30" />
 
