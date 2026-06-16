@@ -1,5 +1,34 @@
-fastapi==0.116.1
-uvicorn==0.35.0
-numpy==2.3.2
-scikit-learn==1.7.1
-pydantic==2.11.7
+# Project Requirements (React + Vite + Tailwind)
+
+# Runtime
+node>=18
+npm>=9
+
+# Core framework and tooling
+react
+react-dom
+vite
+tailwindcss
+
+# UI and interaction
+framer-motion
+lucide-react
+react-syntax-highlighter
+
+# Charts and analytics
+react-plotly.js
+plotly.js-dist-min
+plotly.js-basic-dist-min
+
+# Export utilities
+jspdf
+
+# Type support
+@types/react-plotly.js
+@types/react-syntax-highlighter
+
+# Notes
+# 1) Install dependencies using: npm install
+# 2) Run dev server using: npm run dev
+# 3) Build production bundle using: npm run build
+# 4) Backend ML requirements are in: backend/requirements.txt
