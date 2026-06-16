@@ -90,11 +90,9 @@ Backend
 ### Frontend Setup
 
 bash
-- Install dependencies
-  npm install
+- Install dependencies- npm install
 
-- Start development server
-  npm run dev
+- Start development server- npm run dev
 
 
 Frontend runs at: `http://localhost:5173`
@@ -102,52 +100,41 @@ Frontend runs at: `http://localhost:5173`
 ### Backend Setup
 
 bash
-- Navigate to backend
-  cd backend
+- Navigate to backend - cd backend
 
-- Create virtual environment
-  python -m venv .venv
+- Create virtual environment- python -m venv .venv
 
-- Activate virtual environment
-  On Windows:
-  .venv\Scripts\activate
+- Activate virtual environment- .venv\Scripts\activate   (on Windows)
+  
 
-- Install dependencies
-  pip install -r requirements.txt
+- Install dependencies- pip install -r requirements.txt
 
-- Start server
-  uvicorn main:app --reload --port 8000
+- Start server- uvicorn main:app --reload --port 8000
 
 
 ### Installation and API integration 
 
 bash
-- Install Groq SDK
-  pip install groq
+- Install Groq SDK- pip install groq
 
-- Install with all dependencies
-  pip install groq openai python-dotenv requests
+- Install with all dependencies- pip install groq openai python-dotenv requests
 
-- Verify installation
-  python -c "from groq import Groq; print('Groq installed successfully')"
+- Verify installation- python -c "from groq import Groq; print('Groq installed successfully')"
 
 
-Environment Setup
+###Environment Setup
 
 bash
-# Set API key (Linux/macOS)
-export GROQ_API_KEY="gsk_your_key_here"
+- Set API key (Linux/macOS)- export GROQ_API_KEY="gsk_your_key_here"
 
-# Set API key (Windows)
-set GROQ_API_KEY=gsk_your_key_here
+- Set API key (Windows)- set GROQ_API_KEY=gsk_your_key_here
 
-# Verify API key
-python -c "import os; print('Key set:', bool(os.getenv('GROQ_API_KEY')))"
+- Verify API key- python -c "import os; print('Key set:', bool(os.getenv('GROQ_API_KEY')))"
 
 
 Backend runs at: `http://localhost:8000`
 
-Main Dashboard
+##Main Dashboard
 1) User interface (Backend offline)
 <img width="1902" height="865" alt="Screenshot 2026-06-12 020755" src="https://github.com/user-attachments/assets/5affaacd-9502-45e6-baef-c2344e8c6b30" />
 
